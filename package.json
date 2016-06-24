@@ -1,0 +1,50 @@
+{
+  "name": "passport-poniverse",
+  "version": "0.0.0",
+  "description": "Poniverse authentication strategy for Passport.",
+  "keywords": [
+    "passport",
+    "poni",
+    "poniverse",
+    "auth",
+    "authn",
+    "authentication",
+    "identity"
+  ],
+  "author": {
+    "name": "Ross (Codesign)",
+    "email": "cs@csdev.io",
+    "url": "http://csdev.io/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/CodesignDev/passport-poniverse.git"
+  },
+  "bugs": {
+    "url": "http://github.com/CodesignDev/passport-poniverse/issues"
+  },
+  "license": "Apache-2.0",
+  "licenses": [
+    {
+      "type": "Apache-2.0",
+      "url": "https://opensource.org/licenses/Apache-2.0"
+    }
+  ],
+  "main": "./lib/passport-poniverse/",
+  "dependencies": {
+    "passport-oauth2": "1.x.x"
+  },
+  "devDependencies": {
+    "chai": "2.x.x",
+    "chai-passport-strategy": "1.x.x",
+    "make-node": "0.3.x",
+    "mocha": "2.x.x",
+    "proxyquire": "^1.7.9"
+  },
+  "engines": {
+    "node": ">= 0.4.0"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/mocha --reporter spec --require test/bootstrap/node test/*.test.js test/**/*.test.js"
+  }
+}
