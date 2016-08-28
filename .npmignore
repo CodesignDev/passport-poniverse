@@ -6,3 +6,5 @@ test/
 
 .jshintrc
 .travis.yml
+.idea
+*.iml
