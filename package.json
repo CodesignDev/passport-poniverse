@@ -1,6 +1,6 @@
 {
   "name": "passport-poniverse",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Poniverse authentication strategy for Passport.",
   "keywords": [
     "passport",
@@ -39,7 +39,7 @@
     "chai-passport-strategy": "1.x.x",
     "make-node": "0.3.x",
     "mocha": "2.x.x",
-    "proxyquire": "^1.7.9"
+    "proxyquire": "1.4.x"
   },
   "engines": {
     "node": ">= 0.4.0"
